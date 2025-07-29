@@ -13,32 +13,7 @@ namespace AmbulanceHRAdministration
         {
         }
 
-        public static void SeedData(List<IEmployee> employees)
-        {
-            IEmployee doctor1 = new Doctor
-            {
-                
-            };
-        }
     }
 
-    public class Doctor : EmployeeBase
-    {
-        
-    }
-
-    public class HeadOfDepartment : EmployeeBase
-    {
-
-    }
-
-    public class DeputyHeadMaster : EmployeeBase
-    {
-
-    }
-
-    public class HeadMaster : EmployeeBase
-    {
-
-    }
+   
 }
